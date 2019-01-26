@@ -10,7 +10,18 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            
+        }
+    }
+    public class village
+    {
+        public village()
+            {
+              
+            }
+        public void showvillageloc()
+        {
+            Console.WriteLine("Ghagon");
         }
     }
 }
