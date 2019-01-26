@@ -73,5 +73,4 @@ namespace ConsoleApp2
         public Village() { }
     }
 }
-}
 
