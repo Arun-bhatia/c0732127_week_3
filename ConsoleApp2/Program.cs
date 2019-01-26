@@ -10,18 +10,22 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            
+            village newvill = new village(45, "Ghagon");
+            newvill.showvillageloc();
         }
     }
     public class village
     {
-        public village()
+        int distance = 0;
+        String village_name = "";
+        public village(int dist, String villName)
             {
-              
+            distance = dist;
+            village_name = villName;
             }
         public void showvillageloc()
         {
-            Console.WriteLine("Ghagon");
+            Console.WriteLine(village_name+" is "+distance+" km away");
         }
     }
 }
