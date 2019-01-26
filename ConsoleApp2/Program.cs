@@ -10,7 +10,11 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            village newvill = new village(45, "Ghagon");
+            Console.WriteLine("Enter village name");
+            int d = Convert.ToInt32(Console.ReadLine());
+            Console.writeLine("Enter village name");
+            String nm = Console.ReadLine();
+            village newvill = new village(d, "Ghagon");
             newvill.showvillageloc();
         }
     }
