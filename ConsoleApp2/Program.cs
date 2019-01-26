@@ -12,7 +12,7 @@ namespace ConsoleApp2
         {
             Console.WriteLine("Enter village name");
             int d = Convert.ToInt32(Console.ReadLine());
-            Console.writeLine("Enter village name");
+            Console.WriteLine("Enter village name");
             String nm = Console.ReadLine();
             village newvill = new village(d, "Ghagon");
             newvill.showvillageloc();
