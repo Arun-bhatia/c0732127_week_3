@@ -16,6 +16,7 @@ namespace ConsoleApp2
             String nm = Console.ReadLine();
             villages newvill = new villages(d, nm);
             newvill.showvillageloc();
+            int x = 0;
         }
     }
     public class villages
